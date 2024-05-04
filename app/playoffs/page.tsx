@@ -383,7 +383,7 @@ export default function PlayoffsPage() {
                           }`}
                         >
                           <div className="flex h-full w-[10%] items-center justify-center bg-score px-4 py-0.5">
-                            {thirdPlace.participants[0]?.player !== null
+                            {thirdPlace.participants[0]?.player != null
                               ? thirdPlace.participants[0].player + 1
                               : ""}
                           </div>
@@ -394,7 +394,7 @@ export default function PlayoffsPage() {
                               "p-[13px]"
                             }`}
                           >
-                            {thirdPlace.participants[0]?.player !== null
+                            {thirdPlace.participants[0]?.player != null
                               ? players[thirdPlace.participants[0].player]
                                   .nickname
                               : " "}
