@@ -37,9 +37,9 @@ const RankedTheme = createTheme({
 export default function PlayoffsPage() {
   const [loading, setLoading] = useState<boolean>(true)
   const [playoffData, setPlayoffdata] = useState<Season>()
-  const [seasons, setSeasons] = useState<number[]>([1, 2, 3])
+  const [seasons, setSeasons] = useState<number[]>([1, 2, 3, 4])
   const [nextFlag, setNextFlag] = useState<number | null>(null)
-  const [selectedSeason, setSelectedSeason] = useState<number>(3)
+  const [selectedSeason, setSelectedSeason] = useState<number>(4)
   const [matches, setMatches] = useState<Matches[]>([])
   const [players, setPlayers] = useState<Player[]>([])
   const [roundHeaders, setRoundHeaders] = useState<string[]>([])
